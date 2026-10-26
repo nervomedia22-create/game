@@ -1,0 +1,48 @@
+import { LevelConfig } from './types';
+
+export const GAME_LEVELS: LevelConfig[] = [
+  {
+    id: 1,
+    name: 'Pinecone Meadow',
+    subtitle: 'Neighborhood Cul-de-Sac',
+    description: 'Clear the snow from the cozy residential cul-de-sac and cabin driveways before morning!',
+    targetSnow: 70,
+    bonusGiftsCount: 3,
+    mapSize: 70,
+    timeOfDay: 'day',
+    rewardCash: 450,
+  },
+  {
+    id: 2,
+    name: 'Frostpeak Chalet Village',
+    subtitle: 'Winding Alpine Pass',
+    description: 'Winding mountain curves and icy chalets. Watch out for deep snowdrifts and tight turns!',
+    targetSnow: 75,
+    bonusGiftsCount: 4,
+    mapSize: 85,
+    timeOfDay: 'sunset',
+    rewardCash: 800,
+  },
+  {
+    id: 3,
+    name: 'Blizzard Ridge Resort',
+    subtitle: 'Ski Lodge & Grand Loop',
+    description: 'A massive blizzard struck the ski lodge resort! Plow the main plaza, bus loops, and chalet drives.',
+    targetSnow: 80,
+    bonusGiftsCount: 5,
+    mapSize: 100,
+    timeOfDay: 'night',
+    rewardCash: 1400,
+  },
+  {
+    id: 4,
+    name: 'Zen Alpine Free-Roam',
+    subtitle: 'Endless Winter Sanctuary',
+    description: 'No timer, no pressure. Endless peaceful snow plowing in an expansive winter wonderland.',
+    targetSnow: 95,
+    bonusGiftsCount: 8,
+    mapSize: 120,
+    timeOfDay: 'sunset',
+    rewardCash: 2500,
+  },
+];
